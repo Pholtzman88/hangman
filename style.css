@@ -1,19 +1,15 @@
 body{
 	background-color: grey;
 }
-
 #header {
 	height:auto;
 	width:auto;
-	background-color:blue;
 	text-align: center;
 }
 
 
 #canvas {
-	margin-left:530px;
-	border:2px solid black;
-	background-color: #ddd;
+	margin-left: 225px;
 }
 
 .row {
@@ -38,44 +34,17 @@ margin:50px auto 50px auto;
 	text-align: center;
 
 }
+#solution{
+	width:560px;
+	height:100px;
+	float:right;
+	margin-right: 100px;
+	margin-top: 200px;
 
-.array,
-.loop,
-.function,
-.scope{
-	display:inline-block;
-	height:30px;
-	width:30px;
-	padding-bottom:10px;
-	text-align: center;
-	border-bottom:2px solid black;
-	margin-left:5px;
-	opacity: 0;
-}
-.solution{
-	height:30px;
-	width:400px;
+	}
+.solution_letters{
 	float:left;
-	position:absolute;
-	left:475px;
-	margin-bottom:20px;
-	
-
-}
-#array{
-	left:530px;
-}
-#loop{
-	left:550px;
-}
-#function{
-	left:475px;
-}
-#scope{
-	left:530px;
-}
-#solution_row{
-	width:auto;
-	height:auto;
-	position:relative;
+	display:inline-block;
+	margin-left: 15px;
+	font-size: 72px;
 }
